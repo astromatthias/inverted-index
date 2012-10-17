@@ -10,6 +10,7 @@ import org.apache.hadoop.mapred.Mapper;
 import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reporter;
 
+
 public class IndexMapper extends MapReduceBase implements
 		Mapper<Text, Text, Text, Text> {
 	
