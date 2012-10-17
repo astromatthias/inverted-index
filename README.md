@@ -10,5 +10,5 @@ Run hadoop local:
 hadoop jar inverted-index-1.0-SNAPSHOT.jar org.fiz.hadoop.InvertedIndex 
 			-Dmapred.job.tracker=local 
 			-Dfs.default.name=file:/// 
-			<local input dir> 
-			<local output dir>
+			local_input_dir 
+			local_output_dir
